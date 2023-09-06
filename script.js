@@ -17,11 +17,7 @@ $(document).ready(function () {
             <td>` + entry.Type + `</td>
             <td>` + entry.Definition + `</td>
             <td>` + entry["tl;dr"] + `</td>
-            <td>` + entry.Cases + `</td>
-            <td>` + entry.Overarching + `</td>
-            <td>` + entry["Related Concepts"] + `</td>
             <td>` + entry["AKA"] + `</td>
-            <td>` + entry.Thinkers + `</td>
             <td>` + entry["Specific Citation"] + `</td>
          </tr>`)
         .appendTo("table");
