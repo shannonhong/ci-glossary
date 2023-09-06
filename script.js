@@ -25,6 +25,8 @@ $(document).ready(function () {
     });
   });  
 });
+
+new Tablesort(document.getElementById('Glossary'));
   
 
 
